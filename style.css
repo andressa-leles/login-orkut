@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #D9E6F7;
+     
+}
+
+input,
+button{
+     border: none;
+     outline: none;
+}
+
+header{
+    background: #ffffff;
+    padding: 15px;
+}
+
+.logo img{
+   width: 90px;
+}
+
+
+.link-header a {
+    text-decoration: none;
+    color: #4B4B4B;
+    font-size: 1em;
+    margin:10px;
+}
+
+.container-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.container{
+    display: flex; 
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+     padding: 40px 0px;
+    
+}
+
+.wallpaper img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+     object-fit: cover;
+    
+}
+
+.logo-simples{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-simples img {
+    width: 30px;
+}
+
+.form-bg{
+    background-color: #ffffff;
+    width:100%;
+    height: auto;
+    max-width: 310px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius:20px;
+    gap: 10px;
+
+    
+    
+}
+
+.acesso{
+   color: #ED2590;
+   font-weight: bold;
+   font-size: 1em;
+   text-align: center;
+
+}
+
+
+
+.dados{
+    background: #EFF3F8;
+    padding: 14px 16px;
+    border-radius:10px;
+    color: #868686;
+    font-weight: normal;
+    font-size: 0.9em;
+    width: 100%;
+ 
+}
+
+
+.lembrar-senha{
+    font-size: 3em;
+}
+
+.lembrar {
+    display: flex;
+    display: inline-block; 
+    color: #868686;
+   font-weight: normal;
+   font-size: 0.7em;
+}
+
+.btn-entrar{
+    background: #ED2590;
+    padding: 14px 0;
+    border-radius:10px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-criar{
+    background:#EFF3F8;
+   padding: 14px 0;
+    border-radius:10px;
+    color:#ED2590;
+    font-size: 1em;
+    font-weight: bold;
+   width: 100%;
+   cursor: pointer;
+}
+
+
+.esqueci-senha{
+     color:#ED2590;
+     font-size: 0.8em;
+     text-align: center;
+     margin-top:5px;
+}
+
+footer{
+    background: #ffffff;
+    padding:10px;
+    
+}
+
+.footer{
+   color:#ED2590;
+   font-size: 0.8em;
+   text-align: center;
+   padding: 10px;
+}
