@@ -1,14 +1,19 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #D9E6F7;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-    background-color: #D9E6F7;
-     
+/* Torna o body um container flex vertical */
+body {
+  display: flex;
+  flex-direction: column;
 }
+
 
 input,
 button{
@@ -47,6 +52,7 @@ header{
 
 
 .container{
+    flex: 1;
     display: flex; 
     align-items: stretch;
     justify-content: center;
@@ -157,7 +163,7 @@ header{
 
 footer{
     background: #ffffff;
-    padding:10px;
+    padding:5px;
     
 }
 
@@ -165,5 +171,54 @@ footer{
    color:#ED2590;
    font-size: 0.8em;
    text-align: center;
-   padding: 10px;
+
 }
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .wallpaper {
+    display: none; /* Esconde a imagem */
+  }
+
+  .form-bg {
+    width: 100%;
+    max-width: 90%;
+    padding: 30px;
+  }
+
+  .dados {
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  .btn-entrar,
+  .btn-criar {
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  .link-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .link-header a {
+    font-size: 0.9em;
+  }
+
+  .footer {
+    font-size: 0.7em;
+  }
+}
+
+
