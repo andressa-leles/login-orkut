@@ -19,8 +19,11 @@ O objetivo principal deste projeto é o aprimoramento de habilidades em:
 
 ## 📸 Preview
 
-![image](https://github.com/user-attachments/assets/8cdc2475-9458-4d73-bf7c-3e4533432385)
-![image](https://github.com/user-attachments/assets/6f86a99b-80e1-4ea5-9bf6-0a9e65a8f8d4)
+![image](https://github.com/user-attachments/assets/94d5306e-7719-4929-b1f3-8c17b42483e6)
+![image](https://github.com/user-attachments/assets/ab13b97a-abdf-4599-b341-a2408fa610f3)
+![image](https://github.com/user-attachments/assets/ab13b97a-abdf-4599-b341-a2408fa610f3)
+
+
 
 
 
