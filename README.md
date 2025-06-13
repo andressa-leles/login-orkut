@@ -21,7 +21,7 @@ O objetivo principal deste projeto é o aprimoramento de habilidades em:
 
 ![image](https://github.com/user-attachments/assets/94d5306e-7719-4929-b1f3-8c17b42483e6)
 ![image](https://github.com/user-attachments/assets/ab13b97a-abdf-4599-b341-a2408fa610f3)
-![image](https://github.com/user-attachments/assets/ab13b97a-abdf-4599-b341-a2408fa610f3)
+
 
 
 
